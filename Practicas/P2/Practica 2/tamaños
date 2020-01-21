@@ -1,0 +1,166 @@
+Para Pruebas:
+
+Color.red,Color.green,Color.blue,Color.black,Color.pink
+Circulo (int x, int y, int r)
+Line (int x1, int y1, int x2, int y2)
+Rectangulo (int x1, int y1, int x2, int y2)
+
+
+byaccj -J forma.y
+byaccj forma.y
+	o 
+byacc -J forma.y
+
+Compilar:
+javac Parser.java
+
+
+
+
+color 4 ; circulo 110 , 280 , 100 ; //llantita izq
+color 0 ; rectangulo 150 , 150 , 200 , 200 ; // caja roja
+color 3 ; circulo 310 , 280 , 100 ; //llantita der
+color 2 ; line 130 , 130 , 200 , 200 ; //linea con angulo azul
+color 9 ; rectangulo 230 , 230 , 100 , 100 ; //caja gris
+color 0 ; rectangulo 150 , 150 , 200 , 200 ; // cajita roja
+color 3 ; line 430 , 430 , 200 , 200 ; //linea con angulo negra
+color 7 ; rectangulo 370 , 370 , 400 , 400 ; //caja gris
+color 0 ; circulo 500 , 500 , 200 ; //llantita inferior roja
+
+
+//Cambié form a 4 NUMBERS en LINE
+//Cambié Line en Maquina
+
+
+Casa
+Coche y 
+Persona
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+line 200 200 400 0 ;
+line 400 0 600 200 ;
+line 200 200 600 200 ;
+rectangulo 250 200 300 200 ;
+circulo 50 350 75 ;
+rectangulo 350 250 100 150 ;
+
+circulo 10 430 300 ;
+circulo 20 680 210 ; 
+
+color 0 ; line 700 , 250 , 700 , 330 ;
+color 0 ; line 700 , 330 , 646 , 384 ; 
+color 0 ; line 700 , 330 , 754 , 384 ; 
+color 0 ; line 700 , 270 , 646 , 217 ; 
+color 0 ; line 700 , 270 , 754 , 217 ;
+
+
+rectangulo 75 265 100 50 ;
+rectangulo 80 270 90 40 ;
+rectangulo 50 315 150 70 ;
+rectangulo 55 370 10 10 ;
+rectangulo 185 370 10 10 ;
+rectangulo 65 385 20 15 ;
+rectangulo 165 385 20 15 ;
+
+
+
+color 4 ; circulo 110 , 280 , 100 ;
+color 0 ; rectangulo 150 , 150 , 200 , 200 ;
+color 4 ; circulo 310 , 280 , 100 ;
+
+
+
+
+
+------------
+
+Casa:
+line 200 200 400 0 ;
+line 400 0 600 200 ;
+line 200 200 600 200 ;
+rectangulo 250 200 300 200 ;
+circulo 50 350 75 ;
+rectangulo 350 250 100 150 ;
+
+
+Persona:
+
+circulo 20 680 210 ; 
+line 700 250 700 330 ;
+line 700 330 646 384 ; 
+line 700 330 754 384 ; 
+line 700 270 646 217 ; 
+line 700 270 754 217 ; 
+
+
+Carrito:
+rectangulo 75 265 100 50 ;
+rectangulo 80 270 90 40 ;
+rectangulo 50 315 150 70 ;
+rectangulo 55 370 10 10 ;
+rectangulo 185 370 10 10 ;
+rectangulo 65 385 20 15 ;
+rectangulo 165 385 20 15 ;
+
+----------------------------
+
+
+Casa: OK
+color 0 ; line 200 , 200 , 400 , 0 ;
+color 1 ; line 400 , 0 , 600 , 200 ;
+color 2 ; line 200 , 200 , 600 , 200 ;
+color 3 ; rectangulo 250 , 200 , 300 , 200 ;
+color 5 ; rectangulo 350 , 250 , 100 , 150 ;
+
+
+Persona: OK
+
+color 0 ; circulo 220 , 480 , 100 ; 
+color 1 ; line 270 , 580 , 270 , 700 ;
+color 2 ; line 270 , 700 , 320 , 750 ; 
+color 3 ; line 270 , 700 , 220 , 750 ;
+color 4 ; line 270 , 630 , 220 , 580 ;
+color 5 ; line 270 , 630 , 320 , 580 ; 
+//a un lado de la casa
+color 0 ; circulo 650 , 150 , 100 ;
+color 0 ; line 700 , 250 , 700 , 330 ;
+color 0 ; line 700 , 330 , 646 , 384 ; 
+color 0 ; line 700 , 330 , 754 , 384 ; 
+color 0 ; line 700 , 270 , 646 , 217 ; 
+color 0 ; line 700 , 270 , 754 , 217 ;
+
+
+Carrito: OK
+color 0 ; rectangulo 75 , 265 , 100 , 50 ;
+color 1 ; rectangulo 80 , 270 , 90 , 40 ;
+color 2 ; rectangulo 50 , 315 , 150 , 70 ;
+color 3 ; rectangulo 55 , 370 , 10 , 10 ;
+color 4 ; rectangulo 185 , 370 , 10 , 10 ;
+color 5 ; rectangulo 65 , 385 , 20 , 15 ;
+color 6 ; rectangulo 165 , 385 , 20 , 15 ;
+
+
+
+
+

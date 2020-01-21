@@ -1,0 +1,4 @@
+x = 0 ; 
+matriz [ 3 ] = { 1 , 2 , 3 | 4 , 5 , 6 | 7 , 8 , 9 } ;
+matriz2 [ 3 ] = { 1 , 0 , 0 | 0 , 1 , 0 | 0 , 0 , 1 } ;
+while ( x <= 3 ) { matriz2 = matriz2 * matriz ; Imprimir [ matriz2 ] ; Imprimir [ x ] ; x = x + 1 ; } ;
